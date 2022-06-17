@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+  body{
+  
+    background-color: #4C3A51;
+  }
+  #search{
+    color: #6b778b;
+    text-transform: capitalize;
+    background-color: #E7AB79;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 8px;
+    font-size: 30px;
+    border: 1px solid #6b778c;
+    display: inline-block;
+    transition: all 0.4 ease 0s;
+  }
+  .search-location{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+  }
+  #search:hover{
+    color: #6b778c;
+    background-color:#ff67;
+  }
+  #cityName{
+    background-color: transparent;
+    background: none;
+    color:white;
+    outline: none;
+    font-size: 20px;
+    width: 230px;
+
+    border-bottom:3px solid #ff67;
+    
+    padding: 10px;
+
+  }
+  #temp{
+    text-align: center;
+    color:aliceblue;
+  }
+  
+  #temp #temp-value{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color:white;
+  }
+  #wheater{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    color:white;
+    padding: 5px;
+  }
+  #des{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 5px;
+    color:white;
+    text-align: center;
+  }
+  #speed {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    padding: 5px;
+    color:white;
+    text-align: center;
+
+  }
+
+  #city{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    color:white;
+    text-align: center;
+    padding: 5px;
+  }
+  #weather{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color:white;
+    text-align: center;
+    padding: 5px;
+  }
+  .wheather-container{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #774360;
+    border-radius: 5px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  input{
+    border: none;
+  }
+  .image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    
+  }
