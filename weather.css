@@ -45,6 +45,7 @@
   #temp{
     text-align: center;
     color:aliceblue;
+    font-size: 25px;
   }
   
   #temp #temp-value{
@@ -107,4 +108,7 @@
     align-items: center;
     padding: 5px;
     
+  }
+  sup{
+    font-size: 20px;
   }
