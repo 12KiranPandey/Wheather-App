@@ -5,12 +5,14 @@
 }
   body{
   
-    background-color: #4C3A51;
+    /* background-color: #4C3A51; */
+    background-color: #FFFFFF;
   }
   #search{
     color: #6b778b;
     text-transform: capitalize;
-    background-color: #E7AB79;
+    /* background-color: #E7AB79; */
+    background-color: #FFD24C;
     border-radius: 5px;
     margin-left: 5px;
     padding: 8px;
@@ -32,12 +34,13 @@
   #cityName{
     background-color: transparent;
     background: none;
-    color:white;
+    color:#6b778b;
     outline: none;
     font-size: 20px;
     width: 230px;
 
-    border-bottom:3px solid #ff67;
+    /* border-bottom:3px solid #ff67; */
+    border-bottom:3px solid #FFE69A;
     
     padding: 10px;
 
@@ -92,7 +95,8 @@
   .wheather-container{
     padding: 20px;
     margin-top: 20px;
-    background-color: #774360;
+    /* background-color: #774360; */
+    background-color: #92B4EC;
     border-radius: 5px;
     width: 300px;
     display: block;
